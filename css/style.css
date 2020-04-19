@@ -1,0 +1,112 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* stile generale font pagina */
+body {
+  font-family: 'Roboto' , Verdana
+}
+
+ /* stile generale link */
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+.logo {
+  float: left;
+}
+
+ /* stile generale liste */
+ li {
+   list-style-type: none;
+ }
+
+/* INIZIO HEADER */
+header .parte-blu .colonna.destra ul li .green  {
+  background-color: lime;
+  border-radius: 3px;
+  border: 0.5px solid lime;
+  padding: 10px 10px;
+}
+
+header .parte-blu .colonna.destra ul li .pad {
+  padding: 10px 30px;
+  border-radius: 3px;
+  border: 0.5px solid white;
+}
+
+header .parte-blu .colonna.sinistra .titolo .green.bigger {
+  padding: 20px 20px;
+  font-size: 15px;
+  background-color: lime;
+  border-radius: 3px;
+  border: 0.5px solid lime;
+}
+
+header .parte-blu {
+  background-image: url('../img/background-header.png');
+  background-color: #0b325a;
+  background-repeat: no-repeat;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-position: 110% 100%;
+  background-size: 850px;
+  height: 500px;
+  color: white;
+}
+
+header .parte-blu .colonna {
+  float: left;
+}
+
+li {
+  float: left;
+  padding: 15px 10px;
+}
+
+header .parte-blu .colonna.sinistra {
+  width: 60%;
+}
+
+header .colonna.destra {
+  width: 40%;
+}
+
+header .parte-blu .colonna.sinistra .menu li:first-child {
+  padding-left: 40px;
+}
+
+header .parte-grigia {
+  background-color: lightgrey;
+}
+
+header .parte-grigia .testo {
+  text-align: center;
+  line-height: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+header .parte-grigia .testo p {
+  font-size: 15px;
+  color: grey;
+}
+
+header .parte-blu .colonna.destra li:first-child {
+  padding-left: 51px;
+}
+
+header .parte-blu .colonna.sinistra .titolo h1 {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  line-height: 45px;
+  font-size: 38px;
+}
+/* FINE HEADER */
